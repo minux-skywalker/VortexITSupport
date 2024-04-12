@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/cardview_compat_inset_shadow"
+    tools:context=".Main3Activity">
+
+    <ScrollView
+        android:id="@+id/scroll234"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/main"
+        android:paddingTop="20dp"
+        android:paddingBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/day15"
+                android:layout_width="329dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+
+                android:onClick="day15"
+                android:transitionGroup="false"
+                app:cardBackgroundColor="#FFD600"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:stretchColumns="1">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageView16"
+                            android:layout_width="100dp"
+                            android:layout_height="match_parent"
+                            android:background="#E5E1EE"
+                            android:backgroundTint="#EBBD864B"
+                            android:contentDescription="TODO"
+                            android:cropToPadding="false"
+                            android:elevation="100dp"
+                            android:foregroundTint="#00FCFCFC"
+                            app:srcCompat="@drawable/musicx1" />
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:clickable="false"
+                            app:cardBackgroundColor="#566ACE"
+                            app:cardCornerRadius="20dp">
+
+                            <TextView
+                                android:id="@+id/musictext1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/shape1"
+                                android:backgroundTint="#33A882"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:text="Day 15: Music"
+                                android:textColor="#F2E9E2E2"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/musictext2"
+                                android:layout_width="209dp"
+                                android:layout_height="76dp"
+                                android:layout_marginTop="25dp"
+                                android:background="@drawable/shape1"
+                                android:backgroundTint="#D15357"
+                                android:paddingLeft="10dp"
+                                android:paddingTop="2dp"
+                                android:paddingRight="10dp"
+                                android:text="“Music gives a soul to the universe, wings to the mind, flight to the imagination and life to everything.” ― Plato"
+                                android:textColor="#FFFCFC" />
+                        </androidx.cardview.widget.CardView>
+                    </TableRow>
+
+                </TableLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+
+                android:id="@+id/day16"
+                android:layout_width="329dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:clickable="true"
+                android:focusable="true"
+
+                android:foreground="?android:attr/selectableItemBackground"
+                android:onClick="day16"
+                android:transitionGroup="false"
+                app:cardBackgroundColor="#FFD600"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:stretchColumns="1">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageView18"
+                            android:layout_width="100dp"
+                            android:layout_height="match_parent"
+                            android:background="#E5E1EE"
+                            android:backgroundTint="#EBCF4795"
+                            android:contentDescription="TODO"
+                            android:cropToPadding="false"
+                            android:elevation="100dp"
+                            android:foregroundTint="#00FCFCFC"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/social123" />
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:clickable="false"
+                            app:cardBackgroundColor="#2357DB"
+                            app:cardCornerRadius="20dp">
+
+                            <TextView
+                                android:id="@+id/humortext1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/shape1"
+                                android:backgroundTint="#2962FF"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:text="Day 16: Socializing"
+                                android:textColor="#F2E9E2E2"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/humortext2"
+                                android:layout_width="209dp"
+                                android:layout_height="76dp"
+                                android:layout_marginTop="25dp"
+                                android:background="@drawable/shape1"
+                                android:backgroundTint="#0091EA"
+                                android:paddingLeft="10dp"
+                                android:paddingTop="2dp"
+                                android:paddingRight="10dp"
+                                android:text="Telling an introvert to go to a party is like telling a saint to go to Hell. \n\t\t\t― Criss Jami, Killosophy"
+
+                                android:textColor="#FFFCFC" />
+                        </androidx.cardview.widget.CardView>
+                    </TableRow>
+
+                </TableLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/day17"
+                android:layout_width="329dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:clickable="true"
+                android:focusable="true"
+
+                android:foreground="?android:attr/selectableItemBackground"
+                android:onClick="day17"
+                android:transitionGroup="false"
+                app:cardBackgroundColor="#FFD600"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:stretchColumns="1">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="match_parent"
+                            android:background="#E5E1EE"
+                            android:backgroundTint="#EBCF4795"
+                            android:contentDescription="TODO"
+                            android:cropToPadding="false"
+                            android:elevation="100dp"
+                            android:foregroundTint="#00FCFCFC"
+                            app:srcCompat="@drawable/humorint" />
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:clickable="false"
+                            app:cardBackgroundColor="#FFD600"
+                            app:cardCornerRadius="20dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/shape1"
+                                android:backgroundTint="#D58D13"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:text="Day 17: Humor"
+                                android:textColor="#F2E9E2E2"
+                                android:textSize="18sp" />
+
+                            <TextView
+
+                                android:layout_width="209dp"
+                                android:layout_height="76dp"
+                                android:layout_marginTop="25dp"
+                                android:background="@drawable/shape1"
+                                android:backgroundTint="#EA5E00"
+                                android:paddingLeft="10dp"
+                                android:paddingTop="2dp"
+                                android:paddingRight="10dp"
+                                android:text="The reason I talk to myself is because I’m the only one whose answers I accept.\n\t\t\t\t\t\t\t― George Carlin"
+                                android:textColor="#FFFCFC" />
+                        </androidx.cardview.widget.CardView>
+                    </TableRow>
+
+                </TableLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/day18"
+                android:layout_width="329dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:clickable="true"
+                android:focusable="true"
+
+                android:foreground="?android:attr/selectableItemBackground"
+                android:onClick="day18"
+                android:transitionGroup="false"
+                app:cardBackgroundColor="#FFD600"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:stretchColumns="1">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="match_parent"
+                            android:background="#E5E1EE"
+                            android:backgroundTint="#EBCF4795"
+                            android:contentDescription="TODO"
+                            android:cropToPadding="false"
+                            android:elevation="100dp"
+                            android:foregroundTint="#00FCFCFC"
+                            app:srcCompat="@drawable/book123" />
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:clickable="false"
+                            app:cardBackgroundColor="#ACA688"
+                            app:cardCornerRadius="20dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/shape1"
+                                android:backgroundTint="#BE7432"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:text="Day 18: Read Books"
+                                android:textColor="#F2E9E2E2"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:layout_width="209dp"
+                                android:layout_height="76dp"
+                                android:layout_marginTop="25dp"
+                                android:background="@drawable/shape1"
+                                android:backgroundTint="#BE6517"
+                                android:paddingLeft="10dp"
+                                android:paddingTop="2dp"
+                                android:paddingRight="10dp"
+                                android:text="Good friends, good books, and a sleepy conscience: this is the ideal life.\n\t\t\t\t\t\t\t\t― Mark Twain"
+                                android:textColor="#FFFCFC" />
+                        </androidx.cardview.widget.CardView>
+                    </TableRow>
+
+                </TableLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/day19"
+                android:layout_width="329dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:clickable="true"
+                android:focusable="true"
+
+                android:foreground="?android:attr/selectableItemBackground"
+                android:onClick="day19"
+                android:transitionGroup="false"
+                app:cardBackgroundColor="#FFD600"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:stretchColumns="1">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="match_parent"
+                            android:background="#E5E1EE"
+                            android:backgroundTint="#EBCF4795"
+                            android:contentDescription="TODO"
+                            android:cropToPadding="false"
+                            android:elevation="100dp"
+                            android:foregroundTint="#00FCFCFC"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@drawable/dole" />
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:clickable="false"
+                            app:cardBackgroundColor="#4D76C7"
+                            app:cardCornerRadius="20dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/shape1"
+                                android:backgroundTint="#D152E0"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:text="Day 19: Doodling"
+                                android:textColor="#F2E9E2E2"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:layout_width="209dp"
+                                android:layout_height="76dp"
+                                android:layout_marginTop="25dp"
+                                android:background="@drawable/shape1"
+                                android:backgroundTint="#CD4132C4"
+                                android:paddingLeft="10dp"
+                                android:paddingTop="2dp"
+                                android:paddingRight="10dp"
+                                android:text="I paint the spirit and soul of what I see.\n\t\t\t\t\t\t\t\t\t― Brian Froud"
+                                android:textColor="#FFFCFC" />
+                        </androidx.cardview.widget.CardView>
+                    </TableRow>
+
+                </TableLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/day20"
+                android:layout_width="329dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:clickable="true"
+                android:focusable="true"
+
+                android:foreground="?android:attr/selectableItemBackground"
+                android:onClick="day20"
+                android:transitionGroup="false"
+                app:cardBackgroundColor="#FFD600"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:stretchColumns="1">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="match_parent"
+                            android:background="#E5E1EE"
+                            android:backgroundTint="#EBCF4795"
+                            android:contentDescription="TODO"
+                            android:cropToPadding="false"
+                            android:elevation="100dp"
+                            android:foregroundTint="#00FCFCFC"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@drawable/palce" />
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:clickable="false"
+                            app:cardBackgroundColor="#82AC75"
+                            app:cardCornerRadius="20dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/shape1"
+                                android:backgroundTint="#5B7DDB"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:text="Day 20: Recreational "
+                                android:textColor="#F2E9E2E2"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:layout_width="209dp"
+                                android:layout_height="76dp"
+                                android:layout_marginTop="25dp"
+                                android:background="@drawable/shape1"
+                                android:backgroundTint="#298F57"
+                                android:paddingLeft="10dp"
+                                android:paddingTop="2dp"
+                                android:paddingRight="10dp"
+                                android:text="Two roads diverged in a wood, and I – I took the one less traveled by.\n\t\t\t\t\t\t\t\t-Robert Frost"
+                                android:textColor="#FFFCFC" />
+                        </androidx.cardview.widget.CardView>
+                    </TableRow>
+
+                </TableLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/day21"
+                android:layout_width="329dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:clickable="true"
+                android:focusable="true"
+
+                android:foreground="?android:attr/selectableItemBackground"
+                android:onClick="day21"
+                android:transitionGroup="false"
+                app:cardBackgroundColor="#FFD600"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:stretchColumns="1">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="match_parent"
+                            android:background="#E5E1EE"
+                            android:backgroundTint="#EBCF4795"
+                            android:contentDescription="TODO"
+                            android:cropToPadding="false"
+                            android:elevation="100dp"
+                            android:foregroundTint="#00FCFCFC"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/prof" />
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:clickable="false"
+                            app:cardBackgroundColor="#E0D69F"
+                            app:cardCornerRadius="20dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/shape1"
+                                android:backgroundTint="#DD562D"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:text="Day 21: Guidance"
+                                android:textColor="#F2E9E2E2"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:layout_width="209dp"
+                                android:layout_height="76dp"
+                                android:layout_marginTop="25dp"
+                                android:background="@drawable/shape1"
+                                android:backgroundTint="#D8491E"
+                                android:paddingLeft="10dp"
+                                android:paddingTop="2dp"
+                                android:paddingRight="10dp"
+                                android:text="No one is useless in this world who lightens the burdens of another.\n\t\t\t\t\t\t\t― Charles Dickens"
+                                android:textColor="#FFFCFC" />
+                        </androidx.cardview.widget.CardView>
+                    </TableRow>
+
+                </TableLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

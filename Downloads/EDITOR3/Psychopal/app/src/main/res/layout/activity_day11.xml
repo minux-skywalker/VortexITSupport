@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D5FFFFFF"
+    tools:context=".Day11A">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="332dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/livvic_black"
+        android:padding="5dp"
+        android:text="Day 11: Challenge Negative Thinking"
+        android:textColor="#E65E70"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="332dp"
+        android:layout_height="213dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        app:srcCompat="@drawable/chall" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/robotoslab_regular"
+                android:lineSpacingExtra="3sp"
+                android:padding="5dp"
+                android:text="Questions to ask yourself to help challenge your negative thoughts or self-talk:"
+                android:textColor="#DC2C34CF"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:fontFamily="@font/livvic_regular"
+                android:onClick="OnSelect"
+                android:text="What is the evidence that this thought is true? What is the evidence that this it is not true?"
+                android:textColor="#DA2777EE"
+                android:textSize="15sp"
+                android:textStyle="bold|italic" />
+
+            <CheckBox
+                android:id="@+id/checkBox11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3sp"
+                android:fontFamily="@font/livvic_regular"
+                android:onClick="OnSelect"
+                android:text="Have I confused a thought with a fact?"
+                android:textColor="#DC9225C0"
+                android:textSize="15sp"
+                android:textStyle="bold|italic" />
+
+            <CheckBox
+                android:id="@+id/checkBox12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3sp"
+                android:fontFamily="@font/livvic_regular"
+                android:onClick="OnSelect"
+                android:text="What would I tell a friend if he/she had the same thought?"
+                android:textColor="#DCCF2A2A"
+                android:textSize="15sp"
+                android:textStyle="bold|italic" />
+
+            <CheckBox
+                android:id="@+id/checkBox13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3sp"
+                android:fontFamily="@font/livvic_regular"
+                android:onClick="OnSelect"
+                android:text="What would a friend say about my thought?"
+                android:textColor="#DC108A3F"
+                android:textSize="15sp"
+                android:textStyle="bold|italic" />
+
+            <CheckBox
+                android:id="@+id/checkBox14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3sp"
+                android:fontFamily="@font/livvic_regular"
+                android:onClick="OnSelect"
+                android:text="Am I 100% sure that ___________will happen?"
+                android:textColor="#DC750ED8"
+                android:textSize="15sp"
+                android:textStyle="bold|italic" />
+
+            <CheckBox
+                android:id="@+id/checkBox15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3sp"
+                android:fontFamily="@font/livvic_regular"
+                android:onClick="OnSelect"
+                android:text="How many times has __________happened before?"
+                android:textColor="#01579B"
+                android:textSize="15sp"
+                android:textStyle="bold|italic" />
+
+            <CheckBox
+                android:id="@+id/checkBox16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3sp"
+                android:fontFamily="@font/livvic_regular"
+                android:onClick="OnSelect"
+                android:text="Is __________so important that my future depends on it?"
+                android:textColor="#C4630A"
+                android:textSize="15sp"
+                android:textStyle="bold|italic" />
+
+            <CheckBox
+                android:id="@+id/checkBox17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3sp"
+                android:fontFamily="@font/livvic_regular"
+                android:onClick="OnSelect"
+                android:text=" What is the worst that could happen? "
+                android:textColor="#880E4F"
+                android:textSize="15sp"
+                android:textStyle="bold|italic" />
+
+            <CheckBox
+                android:id="@+id/checkBox18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3sp"
+                android:fontFamily="@font/livvic_regular"
+                android:onClick="OnSelect"
+                android:text="If it did happen, what could I do to cope with or handle it?"
+                android:textColor="#D3A764"
+                android:textSize="15sp"
+                android:textStyle="bold|italic" />
+
+            <CheckBox
+                android:id="@+id/checkBox19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3sp"
+                android:fontFamily="@font/livvic_regular"
+                android:onClick="OnSelect"
+                android:text="Is my judgment based on the way I feel instead of facts?"
+                android:textColor="#1B549B"
+                android:textSize="15sp"
+                android:textStyle="bold|italic" />
+
+            <CheckBox
+                android:id="@+id/checkBox20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3sp"
+                android:fontFamily="@font/livvic_regular"
+                android:onClick="OnSelect"
+                android:text=" Am I confusing “possibility” with “certainty”? It may be possible, but is it likely? "
+                android:textColor="#643896"
+                android:textSize="15sp"
+                android:textStyle="bold|italic" />
+
+            <CheckBox
+                android:id="@+id/checkBox21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3sp"
+                android:fontFamily="@font/livvic_regular"
+                android:onClick="OnSelect"
+                android:text=" Is this a hassle or a horror? "
+                android:textColor="#96384E"
+                android:textSize="15sp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/shape1"
+                android:backgroundTint="#FF6F00"
+                android:fontFamily="@font/aclonica"
+                android:onClick="done"
+                android:text="Exit"
+                android:textColor="#E7E0E0"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

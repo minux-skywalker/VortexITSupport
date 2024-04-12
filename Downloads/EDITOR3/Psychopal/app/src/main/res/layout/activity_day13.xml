@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/abuse1"
+    tools:context=".Day13A">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/livvic_black"
+        android:padding="10dp"
+        android:text="Day 13: Substance Abuse"
+        android:textColor="#6982DB"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="0dp"
+        android:layout_height="194dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13"
+        app:srcCompat="@drawable/ab1" />
+
+    <ScrollView
+        android:layout_width="354dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.623"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/shape1"
+                android:backgroundTint="#406ABD"
+                android:fontFamily="@font/robotoslab_regular"
+                android:lineSpacingExtra="4sp"
+                android:padding="8dp"
+                android:text="Substance abuse can simply be defined as a pattern of harmful use of any substance for mood-altering purposes."
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/shape1"
+                android:backgroundTint="#BD404F"
+                android:drawableLeft="@drawable/drug2"
+                android:fontFamily="@font/robotoslab_regular"
+                android:lineSpacingExtra="4sp"
+                android:padding="8dp"
+                android:text="Why do people fall prey to substance abuse?\n\u25CB Past Experiences\n\u25CB Stress\n\u25CB Social norms\n\u25CB Environment  "
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/shape1"
+                android:backgroundTint="#e96443"
+                android:drawableLeft="@drawable/sup1"
+                android:fontFamily="@font/robotoslab_regular"
+                android:lineSpacingExtra="4sp"
+                android:padding="8dp"
+                android:text="Although drugs abuse cannot be effectively done at home but still you can try basic activities:\n\u25BA Yoga\n\u25BA Swimming\n\u25BA Cycling\n\u25BA Excerciseing\n\u25BA Visitng and extending     support of a personal"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/robotoslab_regular"
+                android:padding="10dp"
+                android:text="@string/drugaddict"
+                android:textColor="#E8891CD6"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

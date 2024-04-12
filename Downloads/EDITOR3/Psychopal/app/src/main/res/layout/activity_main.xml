@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#409DCE60"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Day8"
+                android:layout_width="329dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="8dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:onClick="onClick8"
+                android:transitionGroup="false"
+                app:cardBackgroundColor="#FFD600"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:stretchColumns="1">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/pain"
+                            android:layout_width="100dp"
+                            android:layout_height="match_parent"
+                            android:background="#E5E1EE"
+                            android:backgroundTint="#D0B92C48"
+                            android:contentDescription="@string/todoasas"
+                            android:cropToPadding="false"
+                            android:elevation="100dp"
+                            android:foregroundTint="#00FCFCFC"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@drawable/slaw" />
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/card1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:clickable="false"
+                            app:cardBackgroundColor="#FFD600"
+                            app:cardCornerRadius="20dp">
+
+                            <TextView
+                                android:id="@+id/IMG1_PAIN"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/shape1"
+                                android:backgroundTint="#2962FF"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:text="@string/day_8_self_awareness"
+                                android:textColor="#F2E9E2E2"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/Quote2"
+                                android:layout_width="209dp"
+                                android:layout_height="76dp"
+                                android:layout_marginTop="25dp"
+                                android:background="@drawable/shape1"
+                                android:backgroundTint="#0091EA"
+                                android:paddingLeft="10dp"
+                                android:paddingTop="2dp"
+                                android:paddingRight="10dp"
+                                android:text="@string/self_awareness_is_an_awareness_of_the_self_with_the_self_being_what_makes_one_s_identity_unique"
+                                android:textColor="#FFFCFC" />
+                        </androidx.cardview.widget.CardView>
+
+                    </TableRow>
+
+                </TableLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Day2"
+                android:layout_width="329dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:onClick="onClick9"
+                app:cardBackgroundColor="#FFBA52"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Day8">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:stretchColumns="1">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/img2"
+                            android:layout_width="100dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/cardview_light_background"
+                            android:backgroundTint="#E9E6E6"
+                            android:contentDescription="@string/asasasas"
+                            android:cropToPadding="false"
+                            android:elevation="100dp"
+                            app:srcCompat="@drawable/yogaaa" />
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:cardBackgroundColor="#FFBA52"
+                            app:cardCornerRadius="20dp">
+
+                            <TextView
+                                android:id="@+id/hello"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/shape1"
+                                android:backgroundTint="#E683A9"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:text="@string/day_9_yoga"
+                                android:textColor="#F2E9E2E2"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/hell"
+                                android:layout_width="209dp"
+                                android:layout_height="76dp"
+                                android:layout_marginTop="25dp"
+                                android:background="@drawable/shape1"
+                                android:backgroundTint="#00A4CC"
+                                android:paddingLeft="10dp"
+                                android:paddingTop="2dp"
+                                android:paddingRight="10dp"
+                                android:text="@string/yoga_means_union_yoga_means_union_with_god_ego_self_with_the_divine_self_the_infinite_spirit"
+                                android:textColor="#FFFEFE" />
+                        </androidx.cardview.widget.CardView>
+
+                    </TableRow>
+
+                </TableLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Day3"
+                android:layout_width="329dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:onClick="onClick10"
+                app:cardBackgroundColor="#F1AC88"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Day2">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:stretchColumns="1">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/day4imgage"
+                            android:layout_width="100dp"
+                            android:layout_height="match_parent"
+                            android:background="#5BD5D5"
+                            android:contentDescription="@string/aaaaaaaaaa111111111"
+                            app:srcCompat="@drawable/vip2" />
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:cardBackgroundColor="#F1AC88"
+                            app:cardCornerRadius="20dp">
+
+                            <TextView
+                                android:id="@+id/day4title"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/shape1"
+                                android:backgroundTint="#A07A79"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:text="@string/day_10_vipassana"
+                                android:textColor="#FFFFFF"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/day4quote"
+                                android:layout_width="209dp"
+                                android:layout_height="76dp"
+                                android:layout_marginTop="25dp"
+                                android:background="@drawable/shape1"
+                                android:backgroundTint="#FC766A"
+                                android:paddingLeft="10dp"
+                                android:paddingTop="2dp"
+                                android:paddingRight="10dp"
+                                android:text="@string/vipassana_which_means_to_see_things_as_they_really_are_is_one_of_india_s_most_ancient_techniques_of_meditation"
+                                android:textColor="#F8FCFCFC" />
+                        </androidx.cardview.widget.CardView>
+                    </TableRow>
+
+                </TableLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Day4"
+                android:layout_width="329dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:onClick="onClick11"
+                app:cardBackgroundColor="#18C08B"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="20dp"
+                app:cardMaxElevation="40dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Day3">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:stretchColumns="1">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/day4img"
+                            android:layout_width="100dp"
+                            android:layout_height="match_parent"
+                            android:background="#D1AE8F"
+                            android:contentDescription="@string/sasasasas"
+                            app:srcCompat="@drawable/ngthq" />
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:cardBackgroundColor="#3DCA82"
+                            app:cardCornerRadius="20dp">
+
+                            <TextView
+                                android:id="@+id/day4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/shape1"
+                                android:backgroundTint="#D66C59"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:text="@string/day_11_negative_thinking"
+                                android:textColor="#FFFFFF"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/day4q"
+                                android:layout_width="209dp"
+                                android:layout_height="76dp"
+                                android:layout_marginTop="25dp"
+                                android:background="@drawable/shape1"
+                                android:backgroundTint="#DF46A7"
+                                android:paddingLeft="10dp"
+                                android:paddingTop="2dp"
+                                android:paddingRight="10dp"
+                                android:text="@string/we_all_have_a_habit_of_negative_thinking_one_thing_leads_to_another_something_goes_wrong"
+                                android:textColor="#E1F7F6F6" />
+                        </androidx.cardview.widget.CardView>
+                    </TableRow>
+
+                </TableLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Day51"
+                android:layout_width="329dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:onClick="onClick12"
+                app:cardBackgroundColor="#EBA9C2"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Day4">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:stretchColumns="1">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/img4"
+                            android:layout_width="100dp"
+                            android:layout_height="match_parent"
+                            android:background="#8ADDD1"
+                            android:contentDescription="@string/todo111111"
+                            app:srcCompat="@drawable/sleeeep" />
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:cardBackgroundColor="#EBA9C2"
+                            app:cardCornerRadius="20dp">
+
+                            <TextView
+                                android:id="@+id/Day5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/shape1"
+                                android:backgroundTint="#DE8CF0"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:text="@string/day_12_sleep"
+                                android:textColor="#FFFEFE"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/day5quote"
+                                android:layout_width="209dp"
+                                android:layout_height="76dp"
+                                android:layout_marginTop="25dp"
+                                android:background="@drawable/shape1"
+                                android:backgroundTint="#BE9063"
+                                android:paddingLeft="10dp"
+                                android:paddingTop="2dp"
+                                android:paddingRight="10dp"
+                                android:text="@string/good_sleep_is_necessary_for_optimal_health_and_can_affect_hormone_levels_mood_and_weight"
+                                android:textColor="#F2F1F1F1" />
+                        </androidx.cardview.widget.CardView>
+                    </TableRow>
+
+                </TableLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Day6"
+                android:layout_width="329dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:onClick="onClick13"
+                app:cardBackgroundColor="#E0883A"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Day4">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:stretchColumns="1">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/img6"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:background="#F8911ECF"
+                            android:backgroundTint="#3073DB"
+                            android:contentDescription="@string/asasasasasasas"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@drawable/marijuana" />
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:cardBackgroundColor="#E0883A"
+                            app:cardCornerRadius="20dp">
+
+                            <TextView
+                                android:id="@+id/id6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/shape1"
+                                android:backgroundTint="#5BC8AC"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:text="@string/day_13_substance_abuse"
+                                android:textColor="#FFFEFE"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/day6quote"
+                                android:layout_width="209dp"
+                                android:layout_height="76dp"
+                                android:layout_marginTop="25dp"
+                                android:background="@drawable/shape1"
+                                android:backgroundTint="#FFBB00"
+                                android:paddingLeft="10dp"
+                                android:paddingTop="2dp"
+                                android:paddingRight="10dp"
+                                android:text="@string/Quote6"
+                                android:textColor="#FCFCFC" />
+                        </androidx.cardview.widget.CardView>
+                    </TableRow>
+
+                </TableLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Day7"
+                android:layout_width="329dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:onClick="onClick14"
+                app:cardBackgroundColor="#ADDDCD"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="20dp"
+                app:cardMaxElevation="40dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Day4">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:stretchColumns="1">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/Day7img"
+                            android:layout_width="100dp"
+                            android:layout_height="match_parent"
+                            android:background="#B2C8D6"
+                            android:contentDescription="@string/todosasassa"
+                            app:srcCompat="@drawable/fam11" />
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:cardBackgroundColor="#ADDDCD"
+                            app:cardCornerRadius="20dp">
+
+                            <TextView
+                                android:id="@+id/Day7-1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/shape1"
+                                android:backgroundTint="#4DD5CA"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:text="Day 14: Emotional Support"
+                                android:textColor="#FFFFFF"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/day7q"
+                                android:layout_width="209dp"
+                                android:layout_height="76dp"
+                                android:layout_marginTop="25dp"
+                                android:background="@drawable/shape1"
+                                android:backgroundTint="#C5C75D"
+                                android:paddingLeft="10dp"
+                                android:paddingTop="2dp"
+                                android:paddingRight="10dp"
+                                android:text="It’s all about quality of life and finding a happy balance between work and friends and family. \t\t\t\t–Philip Green"
+                                android:textColor="#FFFFFF" />
+                        </androidx.cardview.widget.CardView>
+                    </TableRow>
+
+                </TableLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

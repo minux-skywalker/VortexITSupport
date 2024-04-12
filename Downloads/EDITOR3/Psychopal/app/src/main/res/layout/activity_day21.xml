@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Day21A">
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="357dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/shape1"
+        android:backgroundTint="#3CFFFCFC"
+        android:fontFamily="@font/livvic_black"
+        android:padding="10dp"
+        android:text="Day 21: Professional help"
+        android:textColor="#CD8F5989"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="371dp"
+        android:layout_height="206dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView58"
+        app:srcCompat="@drawable/psychatrist" />
+
+    <ScrollView
+        android:layout_width="358dp"
+        android:layout_height="347dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/livvic_black"
+                android:padding="5sp"
+                android:text="The Importance of Seeking Help for Depression"
+                android:textColor="#E69653"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/livvic_regular"
+                android:lineSpacingExtra="4sp"
+                android:padding="5sp"
+                android:text="It's not always easy to take the first steps towards seeking help for depression, or, indeed, any other mental health problem. "
+                android:textColor="#E69653"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/livvic_regular"
+                android:lineSpacingExtra="4sp"
+                android:padding="5sp"
+                android:text="But it's important not to cope with depression alone. Having the right medical and/or therapeutic help in place will help your chances of depression recovery. "
+                android:textColor="#E69653"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView62"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/livvic_regular"
+                android:lineSpacingExtra="4sp"
+                android:padding="5sp"
+                android:text="It was hard for me to talk to my general practitioner (GP) about my depression symptoms at first, but I felt like a burden had been removed when I did.\n Why should being in mental or emotional pain be any different to physical pain? "
+                android:textColor="#E69653"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/livvic_regular"
+                android:lineSpacingExtra="4sp"
+                android:padding="5sp"
+                android:text="Keep an Open Mind when Seeking Help for Depression"
+                android:textColor="#E69653"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/livvic_regular"
+                android:lineSpacingExtra="4sp"
+                android:padding="5sp"
+                android:text="Unless you choose to tell anyone, nobody is going to know that you use medication to treat a mental health problem."
+                android:textColor="#E69653"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

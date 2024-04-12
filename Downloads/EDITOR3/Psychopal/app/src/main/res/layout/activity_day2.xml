@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8AE9B"
+    tools:context=".Day2A">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="319dp"
+        android:layout_height="171dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="TODO"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/reality" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="331dp"
+        android:layout_height="402dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.384"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/robotoslab_regular"
+                android:text="@string/day_2_reality11"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                android:textColor="#3D2727"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="#88967C55"
+                android:lineSpacingExtra="2sp"
+                android:padding="2dp"
+                android:text="We all feel it? Whether physical or mental. \nLife is unprecedented chain of events. Nothing is really fixed or planned, how much ever we keep planning reality is quite different. "
+                android:textColor="#E0D1D1"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/livvic_regular"
+                android:onClick="OnSelect"
+                android:text="Take your right arm pull it up straight at same direction as your nose tip."
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/livvic_regular"
+                android:onClick="OnSelect"
+                android:text="Try to move your clockwise direction as much as possible."
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/livvic_regular"
+                android:onClick="OnSelect"
+                android:text="Note it."
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/livvic_regular"
+                android:onClick="OnSelect"
+                android:text="Now just a take deep breath and close your eyes, start thinking in your brain how much can you take your arm more in clockwise direction. "
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/livvic_regular"
+                android:onClick="OnSelect"
+                android:text="Now open it and repeat the step again and observe he change."
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/livvic_regular"
+                android:onClick="OnSelect"
+                android:text="Isn't it looking like miracle? Does it increased?"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/livvic_regular"
+                android:onClick="OnSelect"
+                android:text="So that's it, reality is quite different from what we think, we maybe way more stronger than we feel we really are."
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="118dp"
+                android:layout_height="42dp"
+                android:layout_gravity="center"
+                android:background="@drawable/shape1"
+                android:backgroundTint="#B16A57"
+                android:onClick="done"
+                android:text="Exit"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

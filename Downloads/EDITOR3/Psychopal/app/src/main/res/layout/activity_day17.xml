@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E7E53E"
+    tools:context=".Day17A">
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape1"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/livvic_black"
+        android:paddingLeft="20sp"
+        android:paddingRight="20sp"
+        android:text="Day 17: Humor"
+        android:textColor="#E2DA9616"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="0dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="32dp"
+        android:elevation="20dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView18"
+        app:srcCompat="@drawable/humorreplace" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/shape1"
+                android:backgroundTint="#64b3f4"
+                android:fontFamily="@font/livvic_regular"
+                android:padding="10dp"
+                android:text="Humor does help in elevating our moods."
+                android:textColor="#ffffff"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/shape1"
+                android:backgroundTint="#64b3f4"
+                android:fontFamily="@font/livvic_regular"
+                android:padding="10dp"
+                android:text="Do you remember last time you saw that hilarious movie or TV series(F.R.I.E.N.D.S) especially"
+                android:textColor="#ffffff"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/shape1"
+                android:backgroundTint="#64b3f4"
+                android:fontFamily="@font/livvic_regular"
+                android:padding="10dp"
+                android:text="Humor appears to help people's psychological and physical well-being - for example, helping folks cope with stress and adversity."
+                android:textColor="#ffffff"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/shape1"
+                android:backgroundTint="#64b3f4"
+                android:fontFamily="@font/livvic_regular"
+                android:padding="10dp"
+                android:text="Humor does help in elevating our moods."
+                android:textColor="#ffffff"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/shape1"
+                android:backgroundTint="#64b3f4"
+                android:fontFamily="@font/livvic_regular"
+                android:padding="10dp"
+                android:text="Laughter - especially a hearty laugh - has been shown to benefit your circulation, lungs and muscles (especially those around the belly area)."
+                android:textColor="#ffffff"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/shape1"
+                android:backgroundTint="#64b3f4"
+                android:fontFamily="@font/livvic_regular"
+                android:padding="10dp"
+                android:text="Humor also helps people deal with pain and physical adversity. "
+                android:textColor="#ffffff"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/shape1"
+                android:backgroundTint="#64b3f4"
+                android:drawableRight="@drawable/bulb2"
+                android:fontFamily="@font/livvic_regular"
+                android:padding="10dp"
+                android:text="So go on watch a funny movie or read some jokes, this will surely lighten up your mood."
+                android:textColor="#ffffff"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0082c8"
+    tools:context=".Day16A">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/livvic_black"
+        android:text="Day 16: Socializing"
+        android:textColor="#FAFAFA"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="364dp"
+        android:layout_height="214dp"
+        android:layout_margin="20dp"
+        android:layout_marginTop="24dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:srcCompat="@drawable/social" />
+
+    <ScrollView
+        android:layout_width="344dp"
+        android:layout_height="329dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape1"
+                android:backgroundTint="#1DA1F2"
+                android:fontFamily="@font/robotoslab_regular"
+                android:padding="5dp"
+                android:text="Socialization actually helps:"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/shape1"
+                android:backgroundTint="#1DA1F2"
+                android:fontFamily="@font/robotoslab_regular"
+                android:lineSpacingExtra="5sp"
+                android:padding="5dp"
+                android:text="A famous study answers this question. Researcher William Fleeson and his colleagues tracked a group of people, every three hours for two weeks, recording how they'd acted and felt during each chunk of time."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/shape1"
+                android:backgroundTint="#1DA1F2"
+                android:fontFamily="@font/robotoslab_regular"
+                android:lineSpacingExtra="5sp"
+                android:padding="5dp"
+                android:text="They found that those who'd acted &quot;talkative&quot; and &quot;assertive&quot; - even if they were introverts - were more likely to report feeling positive emotions such as excitement and enthusiasm."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/shape1"
+                android:backgroundTint="#CC9D12"
+                android:fontFamily="@font/robotoslab_regular"
+                android:lineSpacingExtra="5sp"
+                android:padding="5dp"
+                android:text="So socializing does have some benefits:\n\u25BA You may live longer \n\u25BA you will enjoy better physical health \n\u25BA You will enjoy better mental health \n\u25BA  You may even lower your risk of dementia. "
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/shape1"
+                android:backgroundTint="#ec38bc"
+                android:fontFamily="@font/livvic_black"
+                android:lineSpacingExtra="5sp"
+                android:padding="5dp"
+                android:text="So what are you waiting for? Go ask out your friend over coffee and have loads of conversation and fun."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

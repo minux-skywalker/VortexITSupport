@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.editor3">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:noHistory="true"
+
+
+        android:icon="@mipmap/butt2on"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/butt2on"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Main3Activity" android:screenOrientation="portrait" android:noHistory="true"></activity>
+        <activity android:name=".Dashboard" android:screenOrientation="portrait"  android:noHistory="true"/>
+        <activity android:name=".main_launcher" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" android:screenOrientation="portrait" />
+        <activity android:name=".Day21A" android:screenOrientation="portrait" />
+        <activity android:name=".Day20A" android:screenOrientation="portrait"/>
+        <activity android:name=".Day19A" android:screenOrientation="portrait"/>
+        <activity android:name=".Day18A" android:screenOrientation="portrait"/>
+        <activity android:name=".Day17A" android:screenOrientation="portrait"/>
+        <activity android:name=".Day16A" android:screenOrientation="portrait"/>
+        <activity android:name=".Day15A" android:screenOrientation="portrait"/>
+        <activity android:name=".Day14A" android:screenOrientation="portrait"/>
+        <activity android:name=".Day13A" android:screenOrientation="portrait"/>
+        <activity android:name=".Day12A" android:screenOrientation="portrait"/>
+        <activity android:name=".Day11A" android:screenOrientation="portrait"/>
+        <activity android:name=".Day10A" android:screenOrientation="portrait"/>
+        <activity android:name=".Day9A" android:screenOrientation="portrait"/>
+        <activity android:name=".Day8A" android:screenOrientation="portrait"/>
+        <activity android:name=".Day7A" android:screenOrientation="portrait"/>
+        <activity android:name=".Day6A" android:screenOrientation="portrait"/>
+        <activity android:name=".Day5A" android:screenOrientation="portrait"/>
+        <activity android:name=".Day4A" android:screenOrientation="portrait"/>
+        <activity android:name=".Day3A" android:screenOrientation="portrait"/>
+        <activity android:name=".Day2A" android:screenOrientation="portrait"/>
+        <activity android:name=".Day1A" android:screenOrientation="portrait"/>
+        <activity android:name=".Main2Activity" android:screenOrientation="portrait" android:noHistory="true"/>
+
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

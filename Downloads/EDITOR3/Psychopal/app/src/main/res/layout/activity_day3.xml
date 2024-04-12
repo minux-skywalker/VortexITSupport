@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECECE0"
+    tools:context=".Day3A">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="319dp"
+        android:layout_height="171dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="TODO"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/jud2" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="331dp"
+        android:layout_height="402dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.384"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/robotoslab_regular"
+                android:text="Day 3: Judgement"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                android:textColor="#2E2D2D"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="#E94821"
+                android:lineSpacingExtra="2sp"
+                android:padding="2dp"
+                android:text="We all are prone to live in a judgemental society. We keep t impress others forgetting how to express ourselves. "
+                android:textColor="#E0D1D1"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/shape1"
+                android:backgroundTint="#B7D89191"
+                android:fontFamily="@font/livvic_regular"
+                android:onClick="OnSelect"
+                android:text="Judgement is just like being prisoner of the society, friends,peers. Forgetting to express ourselves and boast off at any cost."
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/shape1"
+                android:backgroundTint="#B7D89191"
+                android:fontFamily="@font/livvic_regular"
+                android:onClick="OnSelect"
+                android:text="Take a note of 5-10 things you fear being judged of."
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape1"
+                android:backgroundTint="#B7D89191"
+                android:fontFamily="@font/livvic_regular"
+                android:onClick="OnSelect"
+                android:text="In front of every fear does it really matter and if yes what on scale of 0-10. "
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/shape1"
+                android:backgroundTint="#B7D89191"
+                android:fontFamily="@font/livvic_regular"
+                android:onClick="OnSelect"
+                android:text="Try to work on areas where you scored more than 5.0 being least 10 being most."
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/shape1"
+                android:backgroundTint="#00B8D4"
+                android:fontFamily="@font/livvic_black"
+                android:lineSpacingExtra="3sp"
+                android:padding="8dp"
+                android:text="Don't be consequneces of others judgement. You are YoUnique.\nDon't be others perspective. Don't give your key of happiness to other. \nBe incharge of your own happyness."
+                android:textColor="#FAF9F9" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="124dp"
+                android:layout_height="34dp"
+                android:layout_gravity="center"
+                android:background="@drawable/shape1"
+                android:backgroundTint="#E2B939C2"
+                android:gravity="center_horizontal"
+                android:onClick="done"
+                android:text="Exit"
+                android:textColor="#F8F7F2F2"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

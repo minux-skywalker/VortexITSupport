@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A9FFFFFF"
+    tools:context=".Day14A">
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="314dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/livvic_black"
+        android:text="Day 14: Emotional Support"
+        android:textColor="#CDCC9F16"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="367dp"
+        android:layout_height="192dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17"
+        app:srcCompat="@drawable/family" />
+
+    <ScrollView
+        android:layout_width="370dp"
+        android:layout_height="270dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:fontFamily="@font/livvic_black"
+                android:lineSpacingExtra="5sp"
+                android:padding="10dp"
+                android:text="Seeking Help for Depression from Friends and Family"
+                android:textColor="#A86E3F"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView65"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:fontFamily="@font/livvic_black"
+                android:lineSpacingExtra="5sp"
+                android:padding="10dp"
+                android:text="Your friends and family should also be on your side when it comes to helping you manage and eventually beat your depression. "
+                android:textColor="#D18C56"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView66"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:fontFamily="@font/livvic_black"
+                android:lineSpacingExtra="5sp"
+                android:padding="10dp"
+                android:text="Being open about your illness with those close to you can help them understand what’s going on for you, and why they may think you’ve “not been yourself.”"
+                android:textColor="#D18C56"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView67"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:fontFamily="@font/livvic_black"
+                android:lineSpacingExtra="5sp"
+                android:padding="10dp"
+                android:text="Depression can strike anyone at any time, even people who appear to be very successful in life."
+                android:textColor="#D18C56"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView68"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:fontFamily="@font/livvic_black"
+                android:lineSpacingExtra="5sp"
+                android:padding="10dp"
+                android:text="The causes of depression are usually a combination of things, and like most other illnesses, it doesn't discriminate based on age, sex, family background or bank balance."
+                android:textColor="#D18C56"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView69"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:fontFamily="@font/livvic_black"
+                android:lineSpacingExtra="5sp"
+                android:padding="10dp"
+                android:text="Encourage your friends and family to get informed about depression and how it affects people"
+                android:textColor="#D18C56"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView70"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:fontFamily="@font/livvic_black"
+                android:lineSpacingExtra="5sp"
+                android:padding="10dp"
+                android:text=" And if you really can't talk to those closest to you, consider joining a support group, even one online."
+                android:textColor="#D18C56"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView71"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:fontFamily="@font/livvic_black"
+                android:lineSpacingExtra="5sp"
+                android:padding="10dp"
+                android:text="It's just an illness like any other, and it can be beaten -- you just need a good team around you."
+                android:textColor="#D18C56"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:srcCompat="@drawable/supp1111" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

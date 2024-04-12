@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dooodle"
+    tools:context=".Day19A">
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/livvic_black"
+        android:text="Day 19: Doodling"
+        android:textColor="#F3EDED"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="365dp"
+        android:layout_height="205dp"
+        android:layout_marginTop="24dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView34"
+        app:srcCompat="@drawable/dood" />
+
+    <ScrollView
+        android:layout_width="352dp"
+        android:layout_height="294dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/livvic_regular"
+                android:lineSpacingExtra="5sp"
+                android:text="While coloring books for adults are something of a trend, there's another artistic outlet that requires even less effort than colored pencils and markers. It may have more benefits, to boot. "
+                android:textColor="#FAECE8E8"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/livvic_black"
+                android:lineSpacingExtra="5sp"
+                android:text="Benefits for Doodling:"
+                android:textColor="#FAECE8E8"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/robotoslab_regular"
+                android:lineSpacingExtra="5sp"
+                android:text="\u25CF Outlet for creativity:\n You probably already knew this one but it needs to be mentioned. Doodling offers your mind an opportunity to express itself in a creative way."
+                android:textColor="#FAECE8E8"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/robotoslab_regular"
+                android:lineSpacingExtra="5sp"
+                android:text="\u25CF Great for concentration: \nThe research revealed that participants were able to recall 29% more material afterward compared to those who just took notes."
+                android:textColor="#FAECE8E8"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/robotoslab_regular"
+                android:lineSpacingExtra="5sp"
+                android:text="\u25CF Promotes catharsis:\nWhen you doodle, you help your mind tap into deeply held emotions and bring them to the surface.\n\n Over time, this promotes psychological homeostasis, much in the same way that dream therapy does."
+                android:textColor="#FAECE8E8"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/robotoslab_regular"
+                android:lineSpacingExtra="5sp"
+                android:text="\u25CF Encourages humor:\n  We all need a good laugh from time to time. This is particularly true when we’re feeling blue. That’s where doodling comes into play.  \n\nWhen you draw (particularly faces), you allow your mind’s humorous side to become activated. Have you ever noticed the exaggerated features you sketch out of a boss, family member or friend are kind of funny?  "
+                android:textColor="#FAECE8E8"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/robotoslab_regular"
+                android:lineSpacingExtra="5sp"
+                android:text="\u25CF Useful for anxiety:\n One of the amazing benefits of doodling is its ability keep you focused on the here and now.\n\n When you draw out mental imagery from the unconscious, you are engaging in a useful activity for anxiety.  That’s why it’s OK to doodle just before a test or job interview. Ask yourself which is healthier: Stressing about the outcome or drawing something random?"
+                android:textColor="#FAECE8E8"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/robotoslab_regular"
+                android:lineSpacingExtra="5sp"
+                android:text="\u25CF Conclusion:\n Doodling is more than a pastime. It’s a form of art therapy that helps to channel your essence.\n\n The next time someone suggests doodling is a waste of time, remember the benefits shared here."
+                android:textColor="#FAECE8E8"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

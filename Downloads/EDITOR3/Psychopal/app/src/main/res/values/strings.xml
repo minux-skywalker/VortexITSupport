@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">PsychoPal</string>
+    <string name="Quote1">Some old wounds never truly heal, and bleed again at the slightest word. \n\t\t\t\t\t-George R.R. Martin</string>
+    <string name="day_1_pain">Day 1:Pain</string>
+    <string name="Quote2">Don’t let someone else’s opinion of you become your reality. \n \t\t\t\t\t\t\t\t\t\t\t– Les Brown</string>
+    <string name="day3">Judgments prevent us from seeing the good that lies beyond appearances. \n\t\t\t\t\t\t\t\t\t\t- Wayne Dyer</string>
+    <string name="Quote4">The best way to find out if you can trust somebody is to trust them.\n\t\t\t\t\t\t- Ernest Hemingway</string>
+    <string name="Quote5">Understanding is the first step to acceptance, and only with acceptance can there be recovery.\t\t\t\t\t- J.K. Rowling</string>
+    <string name="Quote6">Gratitude makes sense of our past, brings peace for today, and creates a vision for tomorrow.” – Melody Beattie</string>
+    <string name="Quote7">Overthinking – the art of creating problems that weren’t even there.</string>
+    <string name="day_2_reality11">Day 2: Reality</string>
+    <string name="todo"> </string>
+    <string name="day_7_over_thinking1">Day 7: Over-Thinking</string>
+    <string name="sleep"><a href='https://www.apa.org/helpcenter/sleep-disorders'>For more info click here</a></string>
+    <string name="drugaddict"><a href='https://www.helpguide.org/articles/addictions/overcoming-drug-addiction.htm'>For more info click here</a></string>
+    <string name="day_13_substance_abuse">Day 13: Substance Abuse</string>
+    <string name="good_sleep_is_necessary_for_optimal_health_and_can_affect_hormone_levels_mood_and_weight">Good sleep is necessary for optimal health and can affect hormone levels, mood and weight.</string>
+    <string name="day_12_sleep">Day 12: Sleep</string>
+    <string name="we_all_have_a_habit_of_negative_thinking_one_thing_leads_to_another_something_goes_wrong">We all have a habit of negative thinking, one thing leads to another, something goes wrong.</string>
+    <string name="self_awareness_is_an_awareness_of_the_self_with_the_self_being_what_makes_one_s_identity_unique">Self-awareness is an awareness of the self, with the self-being what makes one’s identity unique.</string>
+    <string name="asasasas">asasasas</string>
+    <string name="sasasasas">TODO</string>
+    <string name="vipassana_which_means_to_see_things_as_they_really_are_is_one_of_india_s_most_ancient_techniques_of_meditation">Vipassana, which means to see things as they really are, is one of India\'s most ancient techniques of meditation.</string>
+    <string name="day_10_vipassana">Day 10: Vipassana</string>
+    <string name="todoasas">TODO</string>
+    <string name="todosasassa">TODO</string>
+    <string name="asasasasasasas">TODO</string>
+    <string name="yoga_means_union_yoga_means_union_with_god_ego_self_with_the_divine_self_the_infinite_spirit">Yoga means union. Yoga means union with God, ego-self with the divine Self, the infinite Spirit.</string>
+    <string name="day_9_yoga">Day 9: Yoga</string>
+    <string name="day_8_self_awareness">Day 8: Self-Awareness</string>
+    <string name="day_11_negative_thinking">Day 11: Negative thinking</string>
+    <string name="todo111111">TODO</string>
+    <string name="aaaaaaaaaa111111111">aaaaaaaaaa</string>
+</resources>

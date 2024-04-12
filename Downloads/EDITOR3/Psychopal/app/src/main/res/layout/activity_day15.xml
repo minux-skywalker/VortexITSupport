@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/musicx"
+    tools:context=".Day15A">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="254dp"
+        android:layout_height="111dp"
+        android:layout_marginTop="32dp"
+        android:drawableRight="@drawable/music"
+        android:fontFamily="@font/livvic_black"
+        android:text="Day 15: Music"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="337dp"
+        android:layout_height="458dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/shape1"
+                android:backgroundTint="#C17B39C2"
+                android:fontFamily="@font/livvic_regular"
+                android:lineSpacingExtra="5sp"
+                android:padding="5dp"
+                android:text="Isn’t it interesting how hearing a particular song can bring back a special memory or make you feel happy or calm or pumped up? People are born with the ability to tell the difference between music and noise."
+                android:textColor="#F8F8F8"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/shape1"
+                android:backgroundTint="#C1C239C0"
+                android:fontFamily="@font/livvic_regular"
+                android:lineSpacingExtra="5sp"
+                android:padding="5dp"
+                android:text="Our brains actually have different pathways for processing different parts of music including pitch, melody, rhythm, and tempo. And, fast music can actually increase your heart rate, breathing, and blood pressure, while slower music tends to have the opposite effect."
+                android:textColor="#F8F8F8"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/shape1"
+                android:backgroundTint="#FAFFFFFF"
+                android:drawableRight="@drawable/playlist1"
+                android:fontFamily="@font/robotoslab_regular"
+                android:lineSpacingExtra="5sp"
+                android:padding="5dp"
+                android:paddingLeft="10dp"
+                android:text="So go and get your playlist ready.\nAnd indulge yourself into the world of music."
+                android:textColor="#1033E0"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

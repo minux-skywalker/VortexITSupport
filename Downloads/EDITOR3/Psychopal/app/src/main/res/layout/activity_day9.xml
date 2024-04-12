@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main"
+    tools:context=".Day9A">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/livvic_black"
+        android:text="Day 9: Yoga"
+        android:textColor="#F0E0E1"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="345dp"
+        android:layout_height="146dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/shape1"
+        android:backgroundTint="#61BBC9"
+        android:fontFamily="@font/livvic_regular"
+        android:lineSpacingExtra="5sp"
+        android:padding="7dp"
+        android:text='The word, yoga, comes from the Sanskrit yuj, which means “to yoke” and "samadhi" or "concentration." Thus, yoga is the practice that aims to join the mind, body and spirit. The ultimate goal of yoga is to achieve liberation.'
+        android:textColor="#ECEBE5"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/webview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="350dp"
+        android:layout_height="441dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+</androidx.constraintlayout.widget.ConstraintLayout>
